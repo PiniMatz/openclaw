@@ -917,11 +917,11 @@
       "types": "./dist/plugin-sdk/memory-core.d.ts",
       "default": "./dist/plugin-sdk/memory-core.js"
     },
-    "./plugin-sdk/memory-core-engine-runtime": {
-      "types": "./dist/plugin-sdk/memory-core-engine-runtime.d.ts",
-      "default": "./dist/plugin-sdk/memory-core-engine-runtime.js"
+    "./plugin-sdk/memory-core--runtime": {
+      "types": "./dist/plugin-sdk/memory-core--runtime.d.ts",
+      "default": "./dist/plugin-sdk/memory-core--runtime.js"
     },
-    "./plugin-sdk/memory-core-host-engine-embeddings": {
+    "./plugin-sdk/memory-core-host--embeddings": {
       "types": "./dist/plugin-sdk/memory-core-host-engine-embeddings.d.ts",
       "default": "./dist/plugin-sdk/memory-core-host-engine-embeddings.js"
     },
@@ -1659,9 +1659,9 @@
     "node-domexception": "npm:@nolyfill/domexception@1.0.28",
     "uuid": "14.0.0"
   },
-  "engines": {
-    "node": ">=22.14.0"
-  },
+"engines": {
+  "node": "20.x"
+},
   "packageManager": "pnpm@10.33.0",
   "pnpm": {
     "overrides": {
